@@ -1,0 +1,21 @@
+{
+  "name": "phone_register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.1",
+    "vitest": "^0.7.11"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build:server": "pnpm --filter fastify-backend run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Escuer Ruiz",
+  "license": "ISC"
+}
