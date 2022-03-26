@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a0b2452f-92c2-4e65-853d-1952d0d1cc8d",
+    "name": "iPhone 7",
+    "manufacturer": "Apple",
+    "description": "lorem ipsum dolor sit amet consectetur.",
+    "color": "black",
+    "price": 769,
+    "imageFileName": "IPhone_7.png",
+    "screen": "4,7 inch IPS",
+    "processor": "A10 Fusion",
+    "ram": 2
+  },
+  {
+    "id": "7e572ed0-a8b1-4241-8c32-6de0ec2127f3",
+    "name": "iPhone 12",
+    "manufacturer": "Apple",
+    "description": "lorem ipsum dolor sit amet consectetur.",
+    "color": "green",
+    "price": 1000,
+    "imageFileName": "IPhone_12.png",
+    "screen": "4,7 inch IPS",
+    "processor": "A10 Fusion",
+    "ram": 2
+  }
+]

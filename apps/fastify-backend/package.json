@@ -11,7 +11,8 @@
   "author": "Leonardo Escuer Ruiz",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.27.4"
+    "fastify": "^3.27.4",
+    "@phone_catalog/common_tooling": "workspace:1.0.0"
   },
   "devDependencies": {
     "@swc/core": "^1.2.160",
