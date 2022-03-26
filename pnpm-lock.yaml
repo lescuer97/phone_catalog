@@ -22,11 +22,13 @@ importers:
 
   apps/fastify-backend:
     specifiers:
+      '@phone_catalog/common_tooling': workspace:1.0.0
       '@swc/core': ^1.2.160
       '@types/node': ^17.0.23
       fastify: ^3.27.4
       vite-plugin-node: ^0.0.18
     dependencies:
+      '@phone_catalog/common_tooling': link:../common_tooling
       fastify: 3.27.4
     devDependencies:
       '@swc/core': 1.2.160
