@@ -1,4 +1,4 @@
-type Phone = {
+export type Phone = {
   id: string;
   name: string;
   manufacturer: string;
