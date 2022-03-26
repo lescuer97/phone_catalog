@@ -1,15 +1,17 @@
 import fastify from "fastify";
 
-const server = fastify();
+const app = fastify();
 
-server.get("/ping", async (request, reply) => {
-  return "pang\n";
+app.get("/ping", async (request, reply) => {
+  return "pa ng\n";
 });
 
-server.listen(8080, (err, address) => {
+app.listen(8080, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);
   }
   console.log(`Server listening at ${address}`);
 });
+
+export const viteNodeApp = app;
