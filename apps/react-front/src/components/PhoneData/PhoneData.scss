@@ -1,0 +1,41 @@
+$base-black: #1b1c1e;
+.phoneTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $base-black;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+.phone {
+  border-top: 1px solid #bbb;
+  padding: 0.5rem 0.5rem;
+  color: $base-black;
+  &:hover {
+    background-color: #bbb;
+  }
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.detail {
+  margin: 0rem 0.2rem;
+
+  h6 {
+    margin: 0.2rem 0rem;
+  }
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+.minorDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
