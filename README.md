@@ -8,7 +8,7 @@ You should have been provided with a .env file that just for good practices hasn
 
 Running the comands should be fairly easy.
 
-1. Make shure you already have nodejs and npm installed.
+1. Make sure you already have nodejs and npm installed.
 
 2. if you don't have pnpm installed that is the first thing you should do.
 
@@ -43,3 +43,7 @@ pnpm run dev
 ```
 pnpm run test --filter react-front
 ```
+
+## NOTES
+
+I took the opportunity of the test by experimenting with some new tools like the pnpm Workspaces and Vitest. Vitests actually simplified the unit testing a lot because you don't have to do the tipical conversion with Babel that need to be done when testing with things like Jest
