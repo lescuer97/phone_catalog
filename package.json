@@ -10,13 +10,13 @@
     "eslint": "^8.11.0",
     "prettier": "^2.6.1",
     "typescript": "^4.6.3",
-    "vitest": "^0.7.11"
+    "vitest": "latest"
   },
   "scripts": {
     "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r --parallel run build",
     "build:server": "pnpm --filter fastify-backend run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Leonardo Escuer Ruiz",
-  "license": "ISC"
+  "author": "Leonardo Escuer Ruiz"
 }

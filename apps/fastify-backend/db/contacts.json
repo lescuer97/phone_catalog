@@ -22,5 +22,29 @@
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
     "ram": 2
+  },
+  {
+    "id": "b0593cb1-df46-4637-92e5-976208d5551e",
+    "name": "iPhone 10",
+    "manufacturer": "Apple",
+    "description": "lorem ipsum dolor sit amet consectetur.",
+    "color": "blue",
+    "price": 1100,
+    "imageFileName": "IPhone_10.png",
+    "screen": "4,7 inch IPS",
+    "processor": "A10 Fusion",
+    "ram": 2
+  },
+  {
+    "id": "6bb7088c-6a12-4068-94c0-25a4562647bd",
+    "name": "iPhone 13",
+    "manufacturer": "Apple",
+    "description": "lorem ipsum dolor sit amet consectetur.",
+    "color": "green",
+    "price": 1300,
+    "imageFileName": "IPhone_12.png",
+    "screen": "4,7 inch IPS",
+    "processor": "A10 Fusion",
+    "ram": 2
   }
 ]
