@@ -2,6 +2,7 @@ import React from "react";
 import { Phone } from "@phone_catalog/common_tooling";
 import PhoneData from "./components/PhoneData/PhoneData";
 import useAxios from "./utils/useAxios";
+import loading from "./assets/loading.gif";
 import "./App.scss";
 
 const App: React.FC = () => {
@@ -24,7 +25,13 @@ const App: React.FC = () => {
               ))}
             </>
           ) : (
-            <p>Loading...</p>
+            <img
+              style={{ alignSelf: "center", marginTop: "9rem" }}
+              src={loading}
+              width="20%"
+              alt="Loading Gif"
+            />
+            // <p>Loading...</p>
           )}
         </div>
       </div>
