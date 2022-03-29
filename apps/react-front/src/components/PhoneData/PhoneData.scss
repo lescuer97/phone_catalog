@@ -17,25 +17,43 @@ $base-black: #1b1c1e;
   }
 }
 
-.details {
+.collapsableDetails {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5rem;
+  img {
+    border-radius: 5px;
+    width: 25%;
+  }
+  @media (min-width: 768px) {
+    img {
+      border-radius: 5px;
+      width: 10%;
+    }
+  }
+}
+
+.detailsText {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
 }
 
 .detail {
   margin: 0rem 0.2rem;
-
+  width: 100%;
   h6 {
     margin: 0.2rem 0rem;
   }
   p {
     margin-top: 0.5rem;
+    max-width: 80%;
   }
 }
 
 .minorDetails {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 1.2rem;
+  @media (min-width: 768px) {
+    gap: 5rem;
+  }
 }

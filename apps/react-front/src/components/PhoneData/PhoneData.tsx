@@ -26,26 +26,29 @@ const PhoneData = ({ phone }: PhoneDataProps) => {
         </motion.div>
       </div>
       {showDetail && (
-        <motion.div animate={{ x: "10%" }} className="details">
-          <div className="detail">
-            <h6>Description</h6>
-            <p>{phone.description}</p>
-          </div>
-          <div className="minorDetails">
+        <div className="collapsableDetails">
+          <img loading="lazy" src={phone.imageFileName} alt="Phone picture" />
+          <motion.div animate={{ x: "10%" }} className="detailsText">
             <div className="detail">
-              <h6>Manufacturer</h6>
-              <p>{phone.manufacturer}</p>
+              <h6>Description</h6>
+              <p>{phone.description}</p>
             </div>
-            <div className="detail">
-              <h6>Color</h6>
-              <p>{phone.color}</p>
+            <div className="minorDetails">
+              <div className="detail">
+                <h6>Manufacturer</h6>
+                <p>{phone.manufacturer}</p>
+              </div>
+              <div className="detail">
+                <h6>Color</h6>
+                <p>{phone.color}</p>
+              </div>
+              <div className="detail">
+                <h6>Price</h6>
+                <p>{phone.price}€</p>
+              </div>
             </div>
-            <div className="detail">
-              <h6>Price</h6>
-              <p>{phone.price}€</p>
-            </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       )}
     </div>
   );

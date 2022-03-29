@@ -6,7 +6,7 @@
     "description": "lorem ipsum dolor sit amet consectetur.",
     "color": "black",
     "price": 769,
-    "imageFileName": "IPhone_7.png",
+    "imageFileName": "https://imgs.search.brave.com/UcStSGaDIGd0J3Q4DxhgXJXSzoJ0GoN_RQvFFGgjpGw/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvYTI2/Zjg1ZmItNzA3NC00/NzA3LWIzM2UtODRi/M2EyZTExZDMzXzEu/NDgwNmVmMzkzODhh/YzQxZWU0ODIwZmJm/NDIyZWI2ZTUucG5n",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
     "ram": 6
@@ -18,7 +18,7 @@
     "description": "lorem ipsum dolor sit amet consectetur.",
     "color": "green",
     "price": 1000,
-    "imageFileName": "IPhone_12.png",
+    "imageFileName": "https://imgs.search.brave.com/B76-kBHh_fatx-x6memmDHzqYSe-n34iQXj5EHLK4Ro/rs:fit:288:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/T2NmYWowbWRIZVNK/NlZJLUc0Rkp3SGFN/SyZwaWQ9QXBp",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
     "ram": 6
@@ -30,7 +30,7 @@
     "description": "lorem ipsum dolor sit amet consectetur.",
     "color": "blue",
     "price": 1100,
-    "imageFileName": "IPhone_10.png",
+    "imageFileName": "https://imgs.search.brave.com/Ir2TjuNAJRv5HUQNIP0yzVAgnJPZ2A_9ey7CRsjVkkU/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9ic2wu/Y3dhLnNlbGxlcmNs/b3VkLmNvbS9pbWFn/ZXMvcHJvZHVjdHMv/MzAyNDkyLmpwZw",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
     "ram": 6
@@ -42,7 +42,7 @@
     "description": "lorem ipsum dolor sit amet consectetur.",
     "color": "green",
     "price": 1300,
-    "imageFileName": "IPhone_12.png",
+    "imageFileName": "https://imgs.search.brave.com/N48gaA9CV3waZGgGyn_GrOc4gm35TQrE7oQEEgeBfIw/rs:fit:1200:1152:1/g:ce/aHR0cHM6Ly9saWZl/b25zb2NpYWwuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA2L2lwaG9uZS0x/My5qcGc",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
     "ram": 6
@@ -51,22 +51,22 @@
     "id": "42c40da2-9cff-439d-90d7-0b44e48a43b5",
     "name": "Samsung 10",
     "manufacturer": "Samsung",
-    "description": "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet consectetur.",
+    "description": "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet consectetur ,lorem ipsum dolor sit amet consectetur.",
     "color": "green",
     "price": 1300,
-    "imageFileName": "IPhone_12.png",
+    "imageFileName": "https://imgs.search.brave.com/Cw9IfcBaELxYij6UsuNfhwcXiCLCX1_NkwfPk_F4VOw/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAy/NDIvNjU5OC8yMDA0/L3Byb2R1Y3RzL0Jv/b3N0LVJlZnVyYi1H/YWxheHktbm90ZTEw/LXBsdXMtcGVhcmxf/OGJmMjYzNjUtODUx/Zi00NjcwLWFmODEt/ODBjMjA1MDFhMmI4/XzE2MDB4LnBuZz92/PTE2MTYwMzEzNTU",
     "screen": "4,7 inch IPS",
     "processor": "Samsung",
     "ram": 8
   },
   {
     "id": "811ebc96-1145-4e78-98c5-1c40682d99f5",
-    "name": "Alcatel GO FLIP ",
+    "name": "Alcatel GO FLIP",
     "manufacturer": "Alcatel",
     "description": "lorem ipsum dolor sit amet consectetur.",
     "color": "blue",
     "price": 100,
-    "imageFileName": "IPhone_12.png",
+    "imageFileName": "https://imgs.search.brave.com/6h8iRhQehOCQHXS4sZLqXgv21KGO_MsaKpWGGdVePmg/rs:fit:600:600:1/g:ce/aHR0cHM6Ly92YW5j/b3V2ZXJ1c2VkcGhv/bmVzLmNhL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIwLzA2L2Fs/Y2F0ZWwtZ28tZmxp/cC0zLTAwLTYwMHg2/MDAtaGVyby02MDB4/NjAwLnBuZw",
     "screen": "2.8 inch IPS",
     "processor": "Risc-V",
     "ram": 2
