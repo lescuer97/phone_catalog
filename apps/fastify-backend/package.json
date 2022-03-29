@@ -6,6 +6,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
+    "start:server": "node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Leonardo Escuer Ruiz",

@@ -7,7 +7,7 @@ const app = fastify();
 app.register(import("fastify-cors"), {
   // put your options here
   // corsOptions: false,
-  origin: "*",
+  origin: "http://localhost:3000",
 });
 
 app.get("/phones", async (request, reply) => {
