@@ -4,17 +4,15 @@ import data from "./db/contacts.json";
 
 const app = fastify();
 
-app.get("/phones", async () => {
-  const jsonContact: Phone[] = data;
-
-  return jsonContact;
+app.register(import("fastify-cors"), {
+  // put your options here
+  // corsOptions: false,
+  origin: "*",
 });
 
-app.post("/phones", async (request, reply) => {
+app.get("/phones", async (request, reply) => {
   const jsonContact: Phone[] = data;
-  const newPhone: unknown = request?.body;
-
-  return jsonContact;
+  reply.send(jsonContact);
 });
 
 app.listen(8080, (err, address) => {

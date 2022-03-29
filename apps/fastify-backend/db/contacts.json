@@ -9,7 +9,7 @@
     "imageFileName": "IPhone_7.png",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
-    "ram": 2
+    "ram": 6
   },
   {
     "id": "7e572ed0-a8b1-4241-8c32-6de0ec2127f3",
@@ -21,7 +21,7 @@
     "imageFileName": "IPhone_12.png",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
-    "ram": 2
+    "ram": 6
   },
   {
     "id": "b0593cb1-df46-4637-92e5-976208d5551e",
@@ -33,7 +33,7 @@
     "imageFileName": "IPhone_10.png",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
-    "ram": 2
+    "ram": 6
   },
   {
     "id": "6bb7088c-6a12-4068-94c0-25a4562647bd",
@@ -45,6 +45,30 @@
     "imageFileName": "IPhone_12.png",
     "screen": "4,7 inch IPS",
     "processor": "A10 Fusion",
+    "ram": 6
+  },
+  {
+    "id": "42c40da2-9cff-439d-90d7-0b44e48a43b5",
+    "name": "Samsung 10",
+    "manufacturer": "Samsung",
+    "description": "lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet consectetur.",
+    "color": "green",
+    "price": 1300,
+    "imageFileName": "IPhone_12.png",
+    "screen": "4,7 inch IPS",
+    "processor": "Samsung",
+    "ram": 8
+  },
+  {
+    "id": "811ebc96-1145-4e78-98c5-1c40682d99f5",
+    "name": "Alcatel GO FLIP ",
+    "manufacturer": "Alcatel",
+    "description": "lorem ipsum dolor sit amet consectetur.",
+    "color": "blue",
+    "price": 100,
+    "imageFileName": "IPhone_12.png",
+    "screen": "2.8 inch IPS",
+    "processor": "Risc-V",
     "ram": 2
   }
 ]
