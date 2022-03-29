@@ -14,8 +14,8 @@ app.get("/phones", async (request, reply) => {
   const jsonContact: Phone[] = data;
   reply.send(jsonContact);
 });
-
-app.listen(8080, (err, address) => {
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);
