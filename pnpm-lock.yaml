@@ -27,6 +27,7 @@ importers:
       '@types/node': ^17.0.23
       fastify: ^3.27.4
       fastify-cors: ^6.0.3
+      vite: ^2.8.6
       vite-plugin-node: ^0.0.18
     dependencies:
       '@phone_catalog/common_tooling': link:../common_tooling
@@ -35,6 +36,7 @@ importers:
     devDependencies:
       '@swc/core': 1.2.160
       '@types/node': 17.0.23
+      vite: 2.8.6
       vite-plugin-node: 0.0.18_@swc+core@1.2.160+vite@2.8.6
 
   apps/react-front:
