@@ -27,7 +27,7 @@ const PhoneData = ({ phone }: PhoneDataProps) => {
       </div>
       {showDetail && (
         <div className="collapsableDetails">
-          <img loading="lazy" src={phone.imageFileName} alt="Phone picture" />
+          <img loading="eager" src={phone.imageFileName} alt="Phone picture" />
           <motion.div animate={{ x: "10%" }} className="detailsText">
             <div className="detail">
               <h6>Description</h6>
