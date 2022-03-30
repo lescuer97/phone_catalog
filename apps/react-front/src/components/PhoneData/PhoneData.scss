@@ -1,4 +1,16 @@
 $base-black: #1b1c1e;
+
+.phone {
+  border-top: 1px solid #bbb;
+  padding: 0.5rem 0.5rem;
+  color: $base-black;
+  @media (min-width: 768px) {
+    &:hover {
+      background-color: #bbb;
+    }
+  }
+}
+
 .phoneTitle {
   display: flex;
   justify-content: space-between;
@@ -7,14 +19,6 @@ $base-black: #1b1c1e;
   padding-left: 2rem;
   padding-right: 1.5rem;
   cursor: pointer;
-}
-.phone {
-  border-top: 1px solid #bbb;
-  padding: 0.5rem 0.5rem;
-  color: $base-black;
-  &:hover {
-    background-color: #bbb;
-  }
 }
 
 .collapsableDetails {
@@ -35,18 +39,20 @@ $base-black: #1b1c1e;
 
 .detailsText {
   display: flex;
+  max-width: 70%;
   flex-wrap: wrap;
 }
 
 .detail {
   margin: 0rem 0.2rem;
   width: 100%;
+  // width: max-content;
+
   h6 {
     margin: 0.2rem 0rem;
   }
   p {
     margin-top: 0.5rem;
-    max-width: 80%;
   }
 }
 
