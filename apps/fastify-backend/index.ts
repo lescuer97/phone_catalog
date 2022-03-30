@@ -7,7 +7,7 @@ const app = fastify();
 app.register(import("fastify-cors"), {
   // put your options here
   // corsOptions: false,
-  origin: ["http://localhost:3000", "https://phone-calalog.onrender.com"],
+  origin: ["http://localhost:3000", "https://catalog.leito.dev/"],
 });
 
 app.get("/phones", async (request, reply) => {
