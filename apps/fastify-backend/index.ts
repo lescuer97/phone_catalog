@@ -1,16 +1,15 @@
-import fastify from "fastify";
+import fastify, { FastifyRequest } from "fastify";
 import { Phone } from "@phone_catalog/common_tooling";
 import data from "./db/contacts.json";
 
 const app = fastify();
 
 app.register(import("fastify-cors"), {
-  // put your options here
-  // corsOptions: false,
-  origin: ["http://localhost:3000", "https://catalog.leito.dev/"],
+  origin: ["http://localhost:3000", /\.leito\.dev$/],
 });
 
-app.get("/phones", async (request, reply) => {
+app.get("/phones", async (request: FastifyRequest, reply) => {
+  console.log({ requestHeader: request.headers });
   const jsonContact: Phone[] = data;
   reply.send(jsonContact);
 });
