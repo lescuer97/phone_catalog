@@ -9,7 +9,6 @@ app.register(import("fastify-cors"), {
 });
 
 app.get("/phones", async (request: FastifyRequest, reply) => {
-  console.log({ requestHeader: request.headers });
   const jsonContact: Phone[] = data;
   reply.send(jsonContact);
 });
