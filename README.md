@@ -2,6 +2,10 @@
 
 This is a Monorepo with pnpm for the interview test, this contains the Backend REST API, some commontypes and posible tools and finally the Front End part of the app.
 
+The app and server are hosted in render.com
+
+Available in: [catalog.leito.dev](https://catalog.leito.dev/)
+
 ## Using in a local development enviroment.
 
 You should have been provided with a .env file that just for good practices hasn't been uploaded to the repository.
